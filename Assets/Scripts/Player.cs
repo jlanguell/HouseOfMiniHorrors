@@ -26,6 +26,10 @@ public class Player : MonoBehaviour
         {
 			information.text = "Don't kill Eric...";
         }
+		else if (sceneName == "GAME_CutTheBoards")
+		{
+			information.text = "Chop down the boards!";
+		}
 
 	}
 }
